@@ -1,0 +1,22 @@
+{
+  "name": "cypress-typescript-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate code for starting Cypress with TypeScript",
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "6.5.0",
+    "cypress-xpath": "^1.6.2",
+    "mocha-allure-reporter": "^1.4.0",
+    "tslint": "^6.1.3",
+    "typescript": "^4.0.3"
+  },
+  "scripts": {
+    "cypress:run": "cypress run",
+    "cypress:open": "cypress open",
+    "lint": "tslint 'cypress/**/*.ts'",
+    "test:allure": "cypress run -b chrome -r mocha-allure-reporter",
+    "report": "allure generate allure-results --clean -o allure-report && allure open allure-report"
+  },
+  "author": "Sandeep Singh Thukral sandeepthukral@gmail.com",
+  "license": "ISC"
+}
