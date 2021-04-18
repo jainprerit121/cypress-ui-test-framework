@@ -28,3 +28,12 @@ TypeScript is also installed and enabled, so if you are comfortable with it, ple
 2. Run the tests using the command `npm run cypress:open`. This brings the Cypress runner. You can now run the tests.
 3. In your IDE or code editor of choice (we recommend VS Code but you are free to choose what you like most) edit the code and run it till you feel confident it is done.
 4. Share results with us.
+
+## Modeifications Done:
+1. Changed framework to page object model where I am creating separate page object class, test class for each page to make it more maintainable.
+2. Reading data from fixtures for better maintainability.
+3. Moved base URL in cypress config file.
+4. Instead of directly accessing URL for different pages, using navigation options available on the webpage as it will also cover the necessary navigation.
+5. Fixed locators to be more consistant.
+6. Updated assertions using implicit assertion wherever applicable.
+7. Created common reusable methods like login, submitContact which can be resused whenever we extend out test cases.
