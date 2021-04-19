@@ -37,3 +37,5 @@ TypeScript is also installed and enabled, so if you are comfortable with it, ple
 5. Fixed locators to be more consistant.
 6. Updated assertions using implicit assertion wherever applicable.
 7. Created common reusable methods like login, submitContact which can be resused whenever we extend out test cases.
+
+### Note: I have kept test.js file too for reference with all the maintainance changes also same test can be found in separate tests created for the page to support page object model.
