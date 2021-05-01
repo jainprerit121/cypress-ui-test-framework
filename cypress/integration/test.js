@@ -1,15 +1,3 @@
-// This assignment is about two things
-// 1. Create meaningful, reproducible, reliable and non-flaky tests
-// 2. creating clean, readable and maintainable code. 
-
-// Below are five tests that (somehow) work but require cleaning up. Update this
-// code to make it easier to maintain, more readable and has sensible ways of asserting
-// data. You might want to research different approaches to improving UI automation such as
-// Page Object Models.
-
-// TypeScript is also installed and enabled, so if you are comfortable with it, please 
-// feel free to use the same.
-
 import HomePage from '../support/Page Objects/homePO';
 import AdminPage from '../support/Page Objects/adminPO';
 import BrandingPage from '../support/Page Objects/brandingPO';
