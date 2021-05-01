@@ -1,4 +1,4 @@
-# Snappet.cypress-assignment
+#cypress-assignment
 
 #QA Cypress Testing Assignment
 
